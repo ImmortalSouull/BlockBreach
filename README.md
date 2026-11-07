@@ -1,12 +1,13 @@
 # BlockBreach — Ready or Not × Minecraft
 
+**English** · [Русский](README.ru.md) · [Polski](README.pl.md)
+
 **Minecraft Java runs alongside Ready or Not, and its blocks, mobs and explosions appear inside Ready or Not's
 picture** — at the right depth, under the HUD, lit to match the scene. Build cover in the middle of a raid, set
 zombies on the suspects, blow a wall with TNT.
 
 **Download:** [Releases](https://github.com/ImmortalSouull/BlockBreach/releases) → `BlockBreach-1.0.0.zip` → run `BlockBreach.exe`. Building from source: [BUILDING.md](BUILDING.md).
 
-*(Русская версия ниже.)*
 
 ## What it does
 - **Minecraft in the picture.** Ready or Not's camera drives Minecraft's; Minecraft's frame is composited into
@@ -82,45 +83,3 @@ files go back, the Minecraft profile is removed; your Minecraft world is kept if
   trademarks of their owners.
 
 License: BlockBreach's own code is MIT (see LICENSE). Third-party parts keep their licenses (THIRD_PARTY_NOTICES.md).
-
----
-
-# BlockBreach — Ready or Not × Minecraft (по-русски)
-
-**Minecraft Java работает рядом с Ready or Not, и его блоки, мобы и взрывы появляются прямо в кадре Ready or Not** —
-на правильной глубине, под интерфейсом, с подстроенным светом. Стройте укрытия посреди штурма, натравливайте зомби на
-подозреваемых, взрывайте стены динамитом.
-
-## Возможности
-- **Minecraft в кадре**: камера RoN управляет камерой Minecraft, кадр Minecraft встраивается по буферу глубины RoN.
-- **Уровень RoN в Minecraft**: полы, лестницы и стены — невидимые барьеры, мобы ходят по картам RoN.
-- **Режим стройки (NumPad 0)**: мышь, колесо и 1–9 идут в Minecraft; **E** — творческий инвентарь Minecraft со всеми
-  предметами. Каждый блок — твёрдая стена в RoN.
-- **Игры воюют**: стрелы, меч, TNT, криперы и фейерверки ранят людей RoN; ваше оружие убивает мобов Minecraft;
-  подозреваемые и отряд отстреливаются; зомби охотятся на подозреваемых, бойцов и на вас.
-- **У каждой карты** своя часть мира Minecraft.
-
-## Требования
-Windows 10/11; Ready or Not (Steam, проверено на сборке 133804), только одиночная игра; Minecraft: Java Edition с
-официальным лаунчером. BlockBreach использует Minecraft 26.3 + Fabric Loader 0.19.5 в своей папке игры.
-
-## Установка
-1. Запустите **BlockBreach.exe** — он сам найдёт Ready or Not и Minecraft Launcher.
-2. **УСТАНОВИТЬ** — ставит всё (≈30 МБ), чужие файлы сохраняются в бэкап.
-3. **ГОТОВ** — открывает Minecraft Launcher с выбранным профилем *BlockBreach*: нажмите там **PLAY**. Когда мир
-   откроется, BlockBreach запустит Ready or Not в DirectX 11.
-4. Начните любую миссию.
-
-SmartScreen может предупредить о неизвестном издателе (exe не подписан): «Подробнее → Выполнить в любом случае».
-
-## Управление
-NumPad 0 — режим стройки; ЛКМ/ПКМ — ломать/ставить; 1–9 и колесо — слот; СКМ — взять блок; E — инвентарь (E/Esc —
-закрыть); ваше оружие попадает по мобам; F5 — Minecraft в кадре вкл/выкл; F6 — выровнять пол; F7 — под/поверх HUD.
-
-## Удаление
-BlockBreach → **УСТАНОВКА → УДАЛИТЬ** (или «Приложения» Windows). Всё убирается, сохранённые файлы возвращаются.
-
-## Если не работает
-Ready or Not должна быть в **DirectX 11**; Minecraft должен открыть мир до начала миссии. Журналы:
-`…\Win64\ue4ss\UE4SS.log`, `…\ue4ss\Mods\RoNPassthrough\history.log`, `…\Win64\ReShade.log`,
-`%LOCALAPPDATA%\BlockBreach\minecraft\logs\latest.log`. После обновления RoN — УСТАНОВКА → ПОЧИНИТЬ.
